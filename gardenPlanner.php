@@ -248,6 +248,7 @@ require('includes/database.php');
    
 <?php  include('includes/weather.php'); ?>
   </div>
+  
 <br>
   <?php  include('includes/footer.php'); ?>
 

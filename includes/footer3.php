@@ -5,16 +5,17 @@
 		        		<div class="col-md-4 col-lg-3 footer-about wow fadeInUp">
 		        			<img class="logo-footer" src="images/logo-white.png" alt="logo-footer" data-at2x="images/logo-white.png">
 		        			<p>
-		        				We are a young company always looking for new and creative ideas to help you with our products in your everyday work.
+		        				We plan to make gardening a hobby that everyone love, irrespective of their age, gardening experience or garden space.
 		        			</p>
-		        			<p><a href="#">Our Team</a></p>
+		        			<p><a href="#">About Us</a></p>
 	                    </div>
 		        		<div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
 		        			<h3>Contact</h3>
-		                	<p><i class="fas fa-map-marker-alt"></i> Via Rossini 10, 10136 Turin Italy</p>
-		                	<p><i class="fas fa-phone"></i> Phone: (0039) 333 12 68 347</p>
-		                	<p><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@domain.com">hello@domain.com</a></p>
-		                	<p><i class="fab fa-skype"></i> Skype: you_online</p>
+		                	<p><i class="fas fa-map-marker-alt"></i> Dundalk Institue of Technology Dundalk, County Louth</p>
+		                	<p><i class="fas fa-phone"></i> Phone: (00353) 333 12 68 347</p>
+		                	<p><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@domain.com">gardenbliss@gmail.com</a></p>
+		                	<p><i class="fab fa-facebook"></i> Facebook: you_online</p>
+							<p><i class="fab fa-instagram"></i> Instagram: you_online</p>
 	                    </div>
 	                    <div class="col-md-4 col-lg-4 footer-links wow fadeInUp">
 	                    	<div class="row">
@@ -32,6 +33,8 @@
 	                    		<div class="col-md-6">
 	                    			<p><a class="scroll-link" href="#section-4">Section 4</a></p>
 	                    			<p><a href="#">Affiliates</a></p>
+	                    			<p><a href="#">Terms</a></p>
+									<p><a href="#">Affiliates</a></p>
 	                    			<p><a href="#">Terms</a></p>
 	                    		</div>
 	                    	</div>

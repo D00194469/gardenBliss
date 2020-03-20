@@ -285,15 +285,6 @@ background-size: cover;
 
 
 
-body {
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 300;
-    color: #888;
-    line-height: 30px;
-    text-align: center;
-}
-
 
 
 a, a:hover, a:focus {  text-decoration: none; transition: all .3s; }
@@ -311,33 +302,8 @@ img { max-width: 100%;
 }
 strong { font-weight: 600; }
 
-a, a:hover, a:focus { color: #9b59b6; text-decoration: none; transition: all .3s; }
+a, a:hover, a:focus { color: #000000; text-decoration: none; transition: all .3s; }
 
-h1, h2 {
-  
-	margin-top: 10px;
-
-	font-size: 38px;
-    font-weight: 300;
-    color: #555;
-    line-height: 50px;
-    font : normal 52px/1 'Overpass';
-}
-
-h3 {
-  font : normal 42px/1 'Overpass';
-	font-size: 22px;
-    font-weight: 300;
-    color: #555;
-    line-height: 30px;
-}
-
-
-
-.colored-text { color: #9b59b6; }
-
-::-moz-selection { background: #9b59b6; color: #fff; text-shadow: none; }
-::selection { background: #9b59b6; color: #fff; text-shadow: none; }
 
 
 /***** General style, all sections *****/
@@ -438,14 +404,6 @@ margin: 0 auto;
   text-align: center;
   border-radius: 28px;
   
-   background: #9b59b6; /* Old browsers */
-background: -moz-linear-gradient(top,  #ffb24b 0%, #9b59b6 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#9b59b6)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #fff 0%,#fff 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #fff 0%,#fff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#fff',GradientType=0 ); /* IE6-9 */
 }
 .services-box h3 {
 margin-top: 0;
@@ -473,7 +431,7 @@ margin-top: 20px;
 margin-bottom: 20px;
 }
 
-.about-us-box-text a { border-bottom: 1px dashed #9b59b6; }
+.about-us-box-text a { border-bottom: 1px dashed #fff; }
 .about-us-box-text a:hover, .about-us-box-text a:focus { border: 0; }
 
 .about-us-box-img img {
@@ -498,14 +456,6 @@ margin: 0 auto;
   text-align: center;
   border-radius: 22px;
   
-  background: #9b59b6; /* Old browsers */
-background: -moz-linear-gradient(top,  #ffb24b 0%, #9b59b6 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#9b59b6)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #fff 0%,#fff 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #fff 0%,#fff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#fff',GradientType=0 ); /* IE6-9 */
 }
 
 .more-services-box h3 {
@@ -623,19 +573,7 @@ background: rgba(255, 255, 255, 0.8);
   border-color: rgba(255, 255, 255, 0.8);
 }
 
-.testimonial-list .nav-tabs li a.active,
-.testimonial-list .nav-tabs li a.active:focus {
-background: #9b59b6; /* Old browsers */
-background: -moz-linear-gradient(top,  #ffb24b 0%, #9b59b6 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#9b59b6)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #ffb24b 0%,#9b59b6 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#9b59b6',GradientType=0 ); /* IE6-9 */
 
-border: 0;
-}
 
 
 /***** Blog *****/
@@ -663,7 +601,7 @@ border-radius: 4px;
 margin-top: 0;
 }
 .blog-box h3 a { color: #555; }
-.blog-box h3 a:hover, .blog-box h3 a:focus { color: #9b59b6; }
+.blog-box h3 a:hover, .blog-box h3 a:focus { color: black; }
 
 .blog-box h3 i {
 padding-left: 10px;
@@ -704,7 +642,10 @@ padding-top: 40px;
 
 .footer-top { padding: 60px 0; text-align: left; color: #fff; color: rgba(255, 255, 255, 0.8); }
 .footer-top h3 { padding-bottom: 10px; color: #fff; }
+.footer-top img{ opacity:1;
+ background-color:rgba(52,60,0.85)
 
+}
 .footer-about img.logo-footer { max-width: 74px; margin-top: 0; margin-bottom: 18px; }
 
 .footer-contact p { word-wrap: break-word; }
