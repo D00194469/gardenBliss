@@ -14,6 +14,13 @@ p{
   font-weight: 400; 
   line-height: 20px;
 }
+h4{
+  font-family: Overpass!important;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight:300;
+  color:white;
+}
 
 .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -39,6 +46,8 @@ color: #748C1C;
 font-family: Overpass !important;
 align-content: left !important;
 }
+
+
 .row1
 {
    display: flex;
@@ -411,6 +420,7 @@ padding: 0 0 10px 0;
 }
 
 
+
 /***** About us *****/
 
 .about-us-box {
@@ -639,11 +649,18 @@ padding-top: 40px;
 }
 
 /***** Footer *****/
+h4{
+  font-family: Overpass!important;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight:300;
+  color:white;
+}
 
 .footer-top { padding: 60px 0; text-align: left; color: #fff; color: rgba(255, 255, 255, 0.8); }
 .footer-top h3 { padding-bottom: 10px; color: #fff; }
 .footer-top img{ opacity:1;
- background-color:rgba(52,60,0.85)
+ 
 
 }
 .footer-about img.logo-footer { max-width: 74px; margin-top: 0; margin-bottom: 18px; }
@@ -657,8 +674,8 @@ padding-top: 40px;
 .footer-bottom { padding: 15px 0 17px 0; background: #41602d; text-align: left; color: #41602d; }
 
 .footer-social { padding-top: 3px; text-align: right; }
-.footer-social a { margin-left: 20px; color: #41602d; border: 0; }
-.footer-social a:hover, .footer-social a:focus { color: #79a05f; border: 0; }
+.footer-social a { margin-left: 20px; color:white; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color: white; border: 0; }
 .footer-social i { font-size: 24px; vertical-align: middle; }
 
 .footer-copyright { padding-top: 5px; }
@@ -668,3 +685,4 @@ padding-top: 40px;
 .weatherCard {
   opacity: 0.9;
 }
+

@@ -114,7 +114,7 @@
 	                    	<p>
 	                    	keeping your garden healthy requires regular maintenance throughout the growing season. Most plants need, water, sun, and nutrient to survived and produce healthy crops. It is important to follow general upkeep combined with pest and disease control which usually does not require much time or money. Ensure you do the garden weekly if there is a need because a neglected garden will need more effort and time to return to perfect health.
 You can use mulch on your garden bed after planting since mulch prevents weeds and help to keep moisture lock in the soil.
-Add the amount of water necessary for your specific plant variety. Ensure that you water your garden regularly. Most crops like vegetables or flowers will need 1 inch of water weekly. Check the topsoil of your garden weekly and add water to most plants when the top inch of the soil began to dry off. You want the top of the soil to remain moist but not water clogged. For more information on how to start and care for your garden watch our how to videos
+<p>Add the amount of water necessary for your specific plant variety. Ensure that you water your garden regularly. Most crops like vegetables or flowers will need 1 inch of water weekly. Check the topsoil of your garden weekly and add water to most plants when the top inch of the soil began to dry off. You want the top of the soil to remain moist but not water clogged. For more information on how to start and care for your garden watch our how to videos</p>
 	
 	                    	
 	                    		
@@ -343,7 +343,7 @@ Add the amount of water necessary for your specific plant variety. Ensure that y
 	                			</div>
 	                		</div>
 	                		<div class="col-md-9">
-	                		<h3 class="plantName">Planting Tulips </h3>
+	                		<h3 class="plantName">Planting Tulips </a></h3>
 	                			
 		                    	<p>
 		                    		There are over 10,000 varieties of tomato in the world, these come in a variety of colours including pink, purple, black, yellow and white.
@@ -359,7 +359,7 @@ Add the amount of water necessary for your specific plant variety. Ensure that y
 	                			</div>
 	                		</div>
 	                		<div class="col-md-9">
-	                		<h3 class="plantName">How to plant Lettuce</a> </h3>
+	                		<h3 class="plantName"> Plant Lettuce</a> </h3>
 	                			
 		                    	<p>
 		                    		Do not store your lettuce near apples, bananas, or any other ethylene-emitting fruits. Ethylene causes lettuce to ripen very fast and start to decay quickly!
@@ -378,7 +378,7 @@ Add the amount of water necessary for your specific plant variety. Ensure that y
 	                			</div>
 	                		</div>
 	                		<div class="col-md-9">
-							<h3 class="plantName">How to care for parsley</a> </h3>
+							<h3 class="plantName"> Care for parsley</a> </h3>
 	                			
 		                    	<p>
 		                    		Parsley will only bloom naturally for 3-7 days in spring. If you trim the stems of your freshly cut tulips, they will continue to grow in your vase for at least another inch.
@@ -394,7 +394,7 @@ Add the amount of water necessary for your specific plant variety. Ensure that y
 	                			</div>
 	                		</div>
 	                		<div class="col-md-9">
-							<h3 class="plantName">watering your rose plant</a> </h3>
+							<h3 class="plantName">Rose plant</a> </h3>
 	                		
 		                    	<p>
 		                     Red roses are in such high demand on February 14th that it could be tough to get your hands on them. So why not have your own rose garden.
