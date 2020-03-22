@@ -1,0 +1,291 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-Nov-2019, 10:45:28
+    Author     : Kaydargo
+*/
+/* img {
+    width: 50px;
+} */
+/*
+Plants Page CSS
+*/
+/**************Plants CSS****************/
+/**************plant CSS HOVER LINK****************/
+/* Garden Planner */
+/* .gardenGridColumn:hover {
+    background-color: grey;
+  } */
+/*
+  .planner {
+	display: flex;
+	flex-flow: column;
+	width: 100vw;
+	height: 100vh;
+}
+
+.garden {
+	display: flex;
+	flex: 1;
+	width: 100%;
+	overflow-x: scroll;
+}
+
+.garden .td {
+	display: flex;
+	flex-flow: column;
+	flex: 1;
+	width: 100%;
+	min-width: 250px;
+	max-width: 350px;
+	height: 100%;
+	min-height: 150px;
+
+	background-color: rgba(0, 0, 0, 0.1);
+	margin: 0 15px;
+	padding: 8px;
+	transition: all 0.2s linear;
+}
+
+.garden .td .plants {
+	background-color: purple;
+	border-radius: 8px;
+	padding: 15px 20px;
+	text-align: center;
+	margin: 4px 0px;
+}*/
+/* Weather Forecast*/
+/* Plants page card carousels*/
+/* Forecast 5 day cards */
+h1 {
+	color: #9CAB6F;
+}
+h2 {
+	text-align: left;
+}
+body {
+	background-color: white;
+}
+.fill {
+	background-image: url("../images/carrot.png");
+	position: relative;
+	background-size: contain;
+	height: 150px;
+	width: 150px;
+	top: 5px;
+	left: 5px;
+	cursor: pointer;
+}
+.empty {
+	display: inline-block;
+	height: 160px;
+	width: 160px;
+	margin: 10px;
+	border: 3px solid;
+	background-color: white;
+}
+.hold {
+	border: solid white 4px;
+}
+.hovered {
+	background: grey;
+	border-style: dashed;
+}
+.invisible {
+	display: none;
+}
+.gallery-nav-links {
+	font-size: 20px;
+	text-align: center;
+	color: #748C1C;
+}
+#vegetablesImages {
+	color: #748C1C;
+}
+#fruitsImages {
+	color: #748C1C;
+}
+#flowersImages {
+	color: #748C1C;
+}
+.galhead {
+	margin-bottom: 50px;
+}
+.gal-buttons {
+	display: inline;
+	margin-left: 15px;
+}
+.carouselimages {
+	width: 100%;
+	height: 75vh;
+	object-fit: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+a.gal-name-link {
+	color: #FFF5DB;
+	font-size: 14px !important;
+	&:hover {
+		color: #FFF5DB;
+		text-decoration: none;
+	}
+}
+p.gal-name {
+	>a {
+		position: relative;
+		color: #000;
+		text-decoration: none;
+		&:hover {
+			color: #000;
+			&:before {
+				visibility: visible;
+				-webkit-transform: scaleX(1);
+				transform: scaleX(1);
+			}
+		}
+		&:before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			bottom: 0;
+			left: 0;
+			background-color: #808381;
+			visibility: hidden;
+			-webkit-transform: scaleX(0);
+			transform: scaleX(0);
+			-webkit-transition: all 0.3s ease-in-out 0s;
+			transition: all 0.3s ease-in-out 0s;
+		}
+	}
+}
+.carousel-control {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 5% !important;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0,0,0,.6);
+	background-color: rgba(0,0,0,0);
+	filter: alpha(opacity=50);
+	opacity: .5;
+}
+.carousel-control.left {
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+	background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+	background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 20%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	background-repeat: repeat-x;
+}
+.carousel-caption {
+	font-size: 25px !important;
+}
+.table {
+	background-color: #FFFFFF !important;
+	th {
+		text-align: center !important;
+		background-color: #748C1C !important;
+		border-color: #748C1C !important;
+		color: #FFFFFF !important;
+	}
+	td {
+		text-align: center !important;
+	}
+}
+.gardenPlanner {
+	width: 100%;
+	height: auto;
+}
+.planner {
+	position: relative;
+	z-index: 15;
+}
+.gardenGrid {
+	height: 500px;
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;
+	margin: auto;
+	margin-top: 20px;
+}
+.gardenGridRow {
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;
+	margin: auto;
+	margin-top: 20px;
+}
+.gardenGridColumn {
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;
+	margin: auto;
+	margin-top: 20px;
+	transition: .3s background-color;
+}
+.gDimBtn {
+	height: 40px;
+	width: 225px;
+}
+.no-gutters {
+	>.col {
+		border: 1px solid grey;
+	}
+	>[class*="col-"] {
+		border: 1px solid grey;
+	}
+}
+.plants {
+	cursor: crosshair;
+	height: 100px;
+	width: 100px;
+}
+#weather {
+	margin: 0 auto;
+	background-color: beige;
+	border: 1px solid grey;
+	text-align: center;
+}
+#wicon {
+	width: 5%;
+}
+.card-text {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.card-title {
+	a {
+		color: #466f29 !important;
+		text-decoration: none;
+		background-color: transparent;
+	}
+}
+.carousel-indicators {
+	li {
+		color: grey;
+	}
+}
+.card-img-top {
+	width: 100%;
+	border-top-left-radius: calc(0.5rem - 0.125rem);
+	border-top-right-radius: calc(0.5rem - 0.125rem);
+	height: 200px;
+}
+@media (min-width: 992px) {
+	.w-lg-20 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 20%;
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+}
