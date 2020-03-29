@@ -445,14 +445,10 @@ margin: 0 auto;
   text-align: center;
   border-radius: 28px;
   
-   background: #9b59b6; /* Old browsers */
-background: -moz-linear-gradient(top,  #ffb24b 0%, #9b59b6 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#9b59b6)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #fff 0%,#fff 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #fff 0%,#fff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#fff',GradientType=0 ); /* IE6-9 */
+
+background: -ms-linear-gradient(top,  #f2f2f2 0%,#f2f2f2 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f2f2f2 0%,#f2f2f2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
 }
 .services-box h3 {
 margin-top: 0;

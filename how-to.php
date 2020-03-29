@@ -128,7 +128,7 @@ include("loginServ.php");
 
 
 					<div class="video-container">
-						<iframe src="https://www.youtube.com/embed/Pi1x-kyC49o?start=64" height="315" width="560" allowfullscreen="" frameborder="0">
+						<iframe src="https://www.youtube.com/embed/a_g-GQplabo" height="315" width="560" allowfullscreen="" frameborder="0">
 						</iframe>
 					</div>
 
@@ -255,36 +255,36 @@ include("loginServ.php");
 				<div class="col-md-4 portfolio-box wow fadeInUp">
 
 					<div class="video-container">
-						<iframe src="https://www.youtube.com/embed/Pi1x-kyC49o?start=64" height="315" width="560" allowfullscreen="" frameborder="0">
+						<iframe src="https://www.youtube.com/embed/BNE8D3AEiOM" height="315" width="560" allowfullscreen="" frameborder="0">
 						</iframe>
 					</div> <br>
 
 
-					<h3 class="plantName">Prepare your soil </h3>
+					<h3 class="plantName">Design your garden  </h3>
 
-					<p>It is impoetant to prepare your garden well before planting. Watch this video to see how you can</p>
+					<p>It is important to prepare your garden well before planting. Watch this video to see how you can</p>
 				</div>
 				<div class="col-md-4 portfolio-box wow fadeInDown">
 
 					<div class="video-container">
-						<iframe src="https://www.youtube.com/embed/Pi1x-kyC49o?start=64" height="315" width="560" allowfullscreen="" frameborder="0">
+						<iframe src="https://www.youtube.com/embed/a_g-GQplabo" height="315" width="560" allowfullscreen="" frameborder="0">
 						</iframe>
 					</div>
 					<br>
-					<h3 class="plantName">Transfer your plant </h3>
+					<h3 class="plantName">Start gardening </h3>
 
-					<p>This video will show you step by steps how to transplant your container plants directly on to your garden.</p>
+					<p>This video will show you step by steps ways you can start a garden from scratch.</p>
 				</div>
 				<div class="col-md-4 portfolio-box wow fadeInUp">
 
 					<div class="video-container">
-						<iframe src="https://www.youtube.com/embed/Pi1x-kyC49o?start=64" height="315" width="560" allowfullscreen="" frameborder="0">
+						<iframe src="https://www.youtube.com/embed/mnKuvrfivIE" height="315" width="560" allowfullscreen="" frameborder="0">
 						</iframe>
 					</div>
 					<br>
-					<h3 class="plantName">sow your seeds</a> </h3>
+					<h3 class="plantName"> composting </a> </h3>
 
-					<p>This video will show you step by step way to sow your seeds in your garden</p>
+					<p>This video will show you step by step way to make your own compost</p>
 				</div>
 			</div>
 
